@@ -6,13 +6,11 @@
 
 <body>
     <center>
-        <form action="<?= base_url('matakuliah/cetak'); ?>"
-method="post">
-
+        <form action="<?= base_url('matakuliah/cetak'); ?>" method="POST">
             <table>
                 <tr>
                     <th colspan="3">
-                            Form Input Data Mata Kuliah
+                        Form Input Matakuliah
                     </th>
                 </tr>
                 <tr>
@@ -29,14 +27,14 @@ method="post">
                 </tr>
                 <tr>
                     <th>Nama MTK</th>
-                    <td>:</td>
+                    <th>:</th>
                     <td>
-                         <input type="text" name="nama" id="nama">
+                        <input type="text" name="nama" id="nama">
                     </td>
                 </tr>
                 <tr>
                     <th>SKS</th>
-                    <td>:</td>
+                    <th>:</th>
                     <td>
                         <select name="sks" id="sks">
                             <option value="">Pilih SKS</option>
